@@ -1,12 +1,15 @@
 # ✅↓ Write your code here ↓✅
 
 def sing():
-    for i in range (10):
+    lyrics = ""
+    for i in range (11):
         if i == 4:
-            print ("there will be an answer,")
+            lyrics += "there will be an answer,\n"
+        elif i == 10:
+            lyrics += "whisper words of wisdom, let it be"
         else:
-            print ("let it be,")
-    print ("whisper words of wisdom, let it be")
-    return
+            lyrics += "let it be,\n"
+    
+    return lyrics
 
 sing()
