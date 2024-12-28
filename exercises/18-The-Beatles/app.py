@@ -10,6 +10,8 @@ def sing():
         else:
             lyrics += "let it be,\n"
     
+    print (lyrics)
+    
     return lyrics
 
 sing()
